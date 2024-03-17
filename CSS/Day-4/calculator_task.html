@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .b1{
+            background-color: wheat;
+            width: 400px;
+            height: 500px;
+            text-align: center;
+        }
+        .b2{
+            background-color: black;
+            width: 300px;
+            height: 400px;
+            position: relative;
+            left: 50px;
+        }
+        .b3{
+            background-color: transparent;
+            color: white;
+            width: 300px;
+            height: 60px;
+            text-align: center;
+            text-align: right;
+            font-size: 50px;
+        }
+        .b4{
+            background-color: transparent;
+            width: 300px;
+            height: 68px;
+        }
+        .b5{
+            background-color: transparent;
+            width: 300px;
+            height: 68px;
+        }
+        .b6{
+            background-color: transparent;
+            width: 300px;
+            height: 68px;
+        }
+        .b7{
+            background-color: transparent;
+            width: 300px;
+            height: 68px;
+        }
+        .b8{
+            background-color: transparent;
+            width: 300px;
+            height: 68px;
+        }
+        .b4 div{
+            display: inline-block;
+        }
+        .c1{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            right: 40px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .c2{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            right: 15px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .c3{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            left: 15px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .c4{
+            background-color: gold;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            left: 40px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .b5 div{
+            display: inline-block;
+        }
+        .d1{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            right: 40px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .d2{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            right: 15px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .d3{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            left: 15px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .d4{
+            background-color: gold;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            left: 40px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .b6 div{
+            display: inline-block;
+        }
+        .e1{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            right: 40px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .e2{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            right: 15px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .e3{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            left: 15px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .e4{
+            background-color: gold;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            left: 40px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .b7 div{
+            display: inline-block;
+        }
+        .f1{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            right: 40px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .f2{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            right: 15px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .f3{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            left: 15px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .f4{
+            background-color: gold;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            left: 40px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .b8 div{
+            display: inline-block;
+        }
+        .g1{
+            background-color: grey;
+            width: 125px;
+            height: 50px;
+            border-radius: 50px;
+            position: relative;
+            top: 9px;
+            right: 30px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .g2{
+            background-color: grey;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            left: 4px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .g3{
+            background-color: gold;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            top: 9px;
+            left: 29px;
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <section class="b1"><h1>Calculator</h1>
+        <section class="b2">
+            <section class="b3">0122</section>
+            <section class="b4">
+                <div class="c1">c</div>
+                <div class="c2">+/-</div>
+                <div class="c3">/</div>
+                <div class="c4">%</div>
+            </section>
+            <section class="b5">
+                <div class="d1">9</div>
+                <div class="d2">8</div>
+                <div class="d3">7</div>
+                <div class="d4">*</div>
+            </section>
+            <section class="b6">
+                <div class="e1">4</div>
+                <div class="e2">5</div>
+                <div class="e3">6</div>
+                <div class="e4">-</div>
+            </section>
+            <section class="b7">
+                <div class="f1">1</div>
+                <div class="f2">2</div>
+                <div class="f3">3</div>
+                <div class="f4">+</div>
+            </section>
+            <section class="b8">
+                <div class="g1">0</div>
+                <div class="g2">.</div>
+                <div class="g3">=</div>
+            </section>
+        </section>
+    </section>
+</body>
+</html>
