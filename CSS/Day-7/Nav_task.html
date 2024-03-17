@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAV TASK</title>
+    <style>
+        nav{
+            width: 800px;
+            height: 100px;
+            background-color: black;
+        }
+        button{
+            width: 150px;
+            height: 20px;
+            position: relative;
+            top: 40px;
+            color: black;
+            border: transparent;
+            
+        }
+        button:after{
+            content: '';
+            position: absolute;
+            background-color: white;
+            width: 0px;
+            height: 3px;
+            left: 0;
+            top: 23px;
+            transition: .4s linear;
+        }
+        button:hover:after{
+            width: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <header>
+            <nav>
+                <button>HOME</button>
+                <button>ADDRESS</button>
+                <button>CONTACT US</button>
+                <button>HELP</button>
+            </nav>
+        </header>
+    </center>
+</body>
+</html>
