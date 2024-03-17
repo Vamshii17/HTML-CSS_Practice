@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FakeStoreAPI</title>
+    <style>
+        div{
+            display: none;
+        }
+        div:target{
+            display: block;
+        }
+        *{
+            text-align: center;
+        }
+        nav{
+            height: 150px;
+            width: 1300px;
+            border: 1px solid black;
+            background-color: gray;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+        }
+        #s1{
+            width: 1300px;
+            height: 550px;
+            border: 1px solid black;
+            background-color: gray;
+        }
+        .a1{
+            width: 275px;
+            height: 450px;
+            border: 1px solid black;
+            background-color: lightgray;
+            position: relative;
+            top: 25px;
+            left: -50px;
+        }
+        div .a1{
+            display: inline-block;
+            
+        }
+        .a1:hover{
+            padding: 10px;
+            box-shadow: 15px 15px 5px black;
+        }
+        .a2{
+            width: 275px;
+            height: 450px;
+            border: 1px solid black;
+            background-color: lightgray;
+            position: relative;
+            top: 25px;
+            left: -15px;
+        }
+        div .a2{
+            display: inline-block;
+        }
+        .a2:hover{
+            padding: 10px;
+            box-shadow: 15px 15px 5px black;
+        }
+        .a3{
+            width: 275px;
+            height: 450px;
+            border: 1px solid black;
+            background-color: lightgray;
+            position: relative;
+            top: 25px;
+            left: 15px;
+        }
+        div .a3{
+            display: inline-block;
+        }
+        .a3:hover{
+            padding: 10px;
+            box-shadow: 15px 15px 5px black;
+        }
+        .a4{
+            width: 275px;
+            height: 450px;
+            border: 1px solid black;
+            background-color: lightgray;
+            position: relative;
+            top: 25px;
+            left: 45px;
+        }
+        div .a4{
+            display: inline-block;
+        }
+        .a4:hover{
+            padding: 10px;
+            box-shadow: 15px 15px 5px black;
+        }
+        #s2{
+            width: 1300px;
+            height: 550px;
+            border: 1px solid black;
+            background-color: gray;
+        }
+        .b1{
+            width: 275px;
+            height: 450px;
+            border: 1px solid black;
+            background-color: lightgray;
+            position: relative;
+            top: 25px;
+            left: -50px;
+        }
+        div .b1{
+            display: inline-block;
+        }
+        .b1:hover{
+            padding: 10px;
+            box-shadow: 15px 15px 5px black;
+        }
+        .b2{
+            width: 275px;
+            height: 450px;
+            border: 1px solid black;
+            background-color: lightgray;
+            position: relative;
+            top: 25px;
+            left: -15px;
+        }
+        div .b2{
+            display: inline-block;
+        }
+        .b2:hover{
+            padding: 10px;
+            box-shadow: 15px 15px 5px black;
+        }
+        .b3{
+            width: 275px;
+            height: 450px;
+            border: 1px solid black;
+            background-color: lightgray;
+            position: relative;
+            top: 25px;
+            left: 15px;
+        }
+        div .b3{
+            display: inline-block;
+        }
+        .b3:hover{
+            padding: 10px;
+            box-shadow: 15px 15px 5px black;
+        }
+        .b4{
+            width: 275px;
+            height: 450px;
+            border: 1px solid black;
+            background-color: lightgray;
+            position: relative;
+            top: 25px;
+            left: 45px;
+        }
+        div .b4{
+            display: inline-block;
+        }
+        .b4:hover{
+            padding: 10px;
+            box-shadow: 15px 15px 5px black;
+        }
+        #s3{
+            width: 1300px;
+            height: 550px;
+            border: 1px solid black;
+            background-color: gray;
+        }
+        .c1{
+            width: 275px;
+            height: 450px;
+            border: 1px solid black;
+            background-color: lightgray;
+            position: relative;
+            top: 25px;
+            left: -50px;
+        }
+        div .c1{
+            display: inline-block;
+        }
+        .c1:hover{
+            padding: 10px;
+            box-shadow: 15px 15px 5px black;
+        }
+        .c2{
+            width: 275px;
+            height: 450px;
+            border: 1px solid black;
+            background-color: lightgray;
+            position: relative;
+            top: 25px;
+            left: -15px;
+        }
+        div .c2{
+            display: inline-block;
+        }
+        .c2:hover{
+            padding: 10px;
+            box-shadow: 15px 15px 5px black;
+        }
+        p{
+            position: relative;
+            left: 10px;
+            width: 255px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <header>
+            <h1>Fake Store API</h1>
+            <hr>
+            <br>
+            <a href="#s1"><button>1</button></a>
+            <a href="#s2"><button>2</button></a>
+            <a href="#s3"><button>3</button></a>
+        </header>
+    </nav>
+    <div id="s1">
+        <div class="a1">
+            <p><b><u>Id</u></b>: 1</p>
+            <p><b><u>Email</u></b>: john@gmail.com</p>
+            <p><b><u>Username</u></b>: johnd</p>
+            <p><b><u>Password</u></b>: m38rmF$</p>
+            <p><b><u>First Name</u></b>: John</p>
+            <p><b><u>Last Name</u></b>: Doe</p>
+            <p><b><u>Phone</u></b>: 1-570-236-7033</p>
+            <p><b><u>Address</u></b>:</p>
+            <p><b><u>City</u></b>: Kilcoole</p>
+            <p><b><u>Street</u></b>: New Road</p>
+            <p><b><u>Number</u></b>: 7682</p>
+            <p><b><u>Zip Code</u></b>: 12926-3874</p>
+        </div>
+        <div class="a2">
+            <p><b><u>Id</u></b>: 2</p>
+            <p><b><u>Email</u></b>: morrison@gmail.com</p>
+            <p><b><u>Username</u></b>: mor_2314</p>
+            <p><b><u>Password</u></b>: 83r5^_</p>
+            <p><b><u>First Name</u></b>: David</p>
+            <p><b><u>Last Name</u></b>: Morrison</p>
+            <p><b><u>Phone</u></b>: 1-570-236-7033</p>
+            <p><b><u>Address</u></b>:</p>
+            <p><b><u>City</u></b>: Kilcoole</p>
+            <p><b><u>Street</u></b>: Lover Ln</p>
+            <p><b><u>Number</u></b>: 7267</p>
+            <p><b><u>Zip Code</u></b>: 12926-3874</p>
+        </div>
+        <div class="a3">
+            <p><b><u>Id</u></b>: 3</p>
+            <p><b><u>Email</u></b>: kevin@gmail.com</p>
+            <p><b><u>Username</u></b>: kevinryan</p>
+            <p><b><u>Password</u></b>: kev0237@</p>
+            <p><b><u>First Name</u></b>: Kevin</p>
+            <p><b><u>Last Name</u></b>: Ryan</p>
+            <p><b><u>Phone</u></b>: 1-567-094-1345</p>
+            <p><b><u>Address</u></b>:</p>
+            <p><b><u>City</u></b>: Cullman</p>
+            <p><b><u>Street</u></b>: FrancesCt</p>
+            <p><b><u>Number</u></b>: 86</p>
+            <p><b><u>Zip Code</u></b>: 29567-1452</p>
+        </div>
+        <div class="a4">
+            <p><b><u>Id</u></b>: 4</p>
+            <p><b><u>Email</u></b>: don@gmail.com</p>
+            <p><b><u>Username</u></b>: donero</p>
+            <p><b><u>Password</u></b>: ewedon</p>
+            <p><b><u>First Name</u></b>: Don</p>
+            <p><b><u>Last Name</u></b>: Romer</p>
+            <p><b><u>Phone</u></b>: 1-765-789-6734</p>
+            <p><b><u>Address</u></b>:</p>
+            <p><b><u>City</u></b>: San Antonio</p>
+            <p><b><u>Street</u></b>: Hunters Creek Dr</p>
+            <p><b><u>Number</u></b>: 6454</p>
+            <p><b><u>Zip Code</u></b>: 98234-1734</p>
+        </div>
+    </div>
+    <div id="s2">
+        <div class="b1">
+            <p><b><u>Id</u></b>: 5</p>
+            <p><b><u>Email</u></b>: derek@gmail.com</p>
+            <p><b><u>Username</u></b>: derek</p>
+            <p><b><u>Password</u></b>: jklg*_56</p>
+            <p><b><u>First Name</u></b>: Derek</p>
+            <p><b><u>Last Name</u></b>: Powell</p>
+            <p><b><u>Phone</u></b>: 1-956-001-1945</p>
+            <p><b><u>Address</u></b>:</p>
+            <p><b><u>City</u></b>: San Antonio</p>
+            <p><b><u>Street</u></b>: Adams St</p>
+            <p><b><u>Number</u></b>: 245</p>
+            <p><b><u>Zip Code</u></b>: 80796-1234</p>
+        </div>
+        <div class="b2">
+            <p><b><u>Id</u></b>: 6</p>
+            <p><b><u>Email</u></b>: david_r@gmail.com</p>
+            <p><b><u>Username</u></b>: david_r</p>
+            <p><b><u>Password</u></b>: 3478*#54</p>
+            <p><b><u>First Name</u></b>: David</p>
+            <p><b><u>Last Name</u></b>: Russell</p>
+            <p><b><u>Phone</u></b>: 1-678345-9856</p>
+            <p><b><u>Address</u></b>:</p>
+            <p><b><u>City</u></b>: El Paso</p>
+            <p><b><u>Street</u></b>: Prospect st</p>
+            <p><b><u>Number</u></b>: 124</p>
+            <p><b><u>Zip Code</u></b>: 12346-0456</p>
+        </div>
+        <div class="b3">
+            <p><b><u>Id</u></b>: 7</p>
+            <p><b><u>Email</u></b>: miriam@gmail.com</p>
+            <p><b><u>Username</u></b>: snyder</p>
+            <p><b><u>Password</u></b>: f238&@*$</p>
+            <p><b><u>First Name</u></b>: Miriam</p>
+            <p><b><u>Last Name</u></b>: Snyder</p>
+            <p><b><u>Phone</u></b>: 1-123-943-0563</p>
+            <p><b><u>Address</u></b>:</p>
+            <p><b><u>City</u></b>: Fresno</p>
+            <p><b><u>Street</u></b>: Saddle st</p>
+            <p><b><u>Number</u></b>: 1342</p>
+            <p><b><u>Zip Code</u></b>: 96378-0245</p>
+        </div>
+        <div class="b4">
+            <p><b><u>Id</u></b>: 8</p>
+            <p><b><u>Email</u></b>: william@gmail.com</p>
+            <p><b><u>Username</u></b>:hokins</p>
+            <p><b><u>Password</u></b>: william56$hj</p>
+            <p><b><u>First Name</u></b>: William</p>
+            <p><b><u>Last Name</u></b>: Hopkins</p>
+            <p><b><u>Phone</u></b>: 1478-001-0890</p>
+            <p><b><u>Address</u></b>:</p>
+            <p><b><u>City</u></b>:Mesa</p>
+            <p><b><u>Street</u></b>: Vally view ln</p>
+            <p><b><u>Number</u></b>: 1342</p>
+            <p><b><u>Zip Code</u></b>:96378-0245</p>
+        </div>
+    </div>
+    <div id="s3">
+        <div class="c1">
+            <p><b><u>Id</u></b>: 9</p>
+            <p><b><u>Email</u></b>: kate@gmail.com</p>
+            <p><b><u>Username</u></b>: kate_h</p>
+            <p><b><u>Password</u></b>: kfejk@*</p>
+            <p><b><u>First Name</u></b>: Kate</p>
+            <p><b><u>Last Name</u></b>: Hale</p>
+            <p><b><u>Phone</u></b>: 1-678-456-1934</p>
+            <p><b><u>Address</u></b>:</p>
+            <p><b><u>City</u></b>: miami</p>
+            <p><b><u>Street</u></b>: Avondale ave</p>
+            <p><b><u>Number</u></b>: 345</p>
+            <p><b><u>Zip Code</u></b>: 96378-0245</p>
+        </div>
+        <div class="c2">
+            <p><b><u>Id</u></b>: 10</p>
+            <p><b><u>Email</u></b>: jimmie@gmail.com</p>
+            <p><b><u>Username</u></b>:jimmie_k</p>
+            <p><b><u>Password</u></b>: klein*#%*</p>
+            <p><b><u>First Name</u></b>: Jimmie</p>
+            <p><b><u>Last Name</u></b>: Klein</p>
+            <p><b><u>Phone</u></b>: 1-104-001-4567</p>
+            <p><b><u>Address</u></b>:</p>
+            <p><b><u>City</u></b>: Fort wayne</p>
+            <p><b><u>Street</u></b>: oak lawn ave</p>
+            <p><b><u>Number</u></b>: 526</p>
+            <p><b><u>Zip Code</u></b>: 10256-4532</p>
+        </div>
+    </div>
+</body>
+</html>

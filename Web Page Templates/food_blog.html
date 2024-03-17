@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Blog</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .s1{
+            width: 1300px;
+            height: 75px;
+            border: transparent;
+        }
+        .s2{
+            width: 1300px;
+            height: 1300px;
+            border: transparent;
+        }
+        .a1{
+            width: 1300px;
+            height: 600px;
+            border: transparent;
+            position: relative;
+            top: 50px;
+        }
+        .a2{
+            width: 285px;
+            height: 550px;
+            border: transparent;
+            position: relative;
+            top: 02px;
+            left: 30px;
+        }
+        div .a2{
+            display: inline-block;
+        }
+        .a3{
+            width: 285px;
+            height: 550px;
+            border: transparent;
+            position: relative;
+            top: 20px;
+            left: 55px;
+        }
+        div .a3{
+            display: inline-block;
+        }
+        .a4{
+            width: 285px;
+            height: 550px;
+            border: transparent;
+            position: relative;
+            top: 10px;
+            left: 80px;
+        }
+        div .a4{
+            display: inline-block;
+        }
+        .a5{
+            width: 285px;
+            height: 550px;
+            border: transparent;
+            position: relative;
+            top: 2px;
+            left: 105px;
+        }
+        div .a5{
+            display: inline-block;
+        }
+        .b1{
+            width: 1300px;
+            height: 600px;
+            border: transparent;
+            position: relative;
+            top: 80px;
+        }
+        .b2{
+            width: 285px;
+            height: 550px;
+            border: transparent;
+            position: relative;
+            top: -7px;
+            left: 30px;
+        }
+        div .b2{
+            display: inline-block;
+        }
+        .b3{
+            width: 285px;
+            height: 550px;
+            border: transparent;
+            position: relative;
+            top: 10px;
+            left: 55px;
+        }
+        div .b3{
+            display: inline-block;
+        }
+        .b4{
+            width: 285px;
+            height: 550px;
+            border: transparent;
+            position: relative;
+            top: 20px;
+            left: 80px;
+        }
+        div .b4{
+            display: inline-block;
+        }
+        .b5{
+            width: 285px;
+            height: 550px;
+            border: transparent;
+            position: relative;
+            top: -8px;
+            left: 105px;
+        }
+        div .b5{
+            display: inline-block;
+        }
+        .s3{
+            width: 1300px;
+            height: 100px;
+            border: transparent;
+        }
+        .pagination{
+            display: inline-block;
+        }
+        .pagination a{
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            position: relative;
+            top: 25px;
+        }
+
+        .pagination a.active{
+            background-color: black;
+            color: white;
+        }
+        .pagination a:hover:not(.active){
+            background-color: lightgray;
+        }
+        .s4{
+            width: 1300px;
+            height: 100px;
+            border: transparent;
+        }
+        .s5{
+            width: 1300px;
+            height: 900px;
+            border: transparent;
+        }
+        .s6{
+            width: 1300px;
+            height: 350px;
+            border: transparent;
+        }
+        .s7{
+            width: 1300px;
+            height: 300px;
+            border: transparent;
+            position: relative;
+            top: 50px;
+        }
+        .c1{
+            width: 350px;
+            height: 250px;
+            border: transparent;
+            position: relative;
+            left: 90px;
+            top: -30px;
+        }
+        div .c1{
+            display: inline-block;
+        }
+        .c2{
+            width: 350px;
+            height: 250px;
+            border: transparent;
+            position: relative;
+            left: 115px;
+            top: 15px;
+        }
+        div .c2{
+            display: inline-block;
+        }
+        .c3{
+            width: 350px;
+            height: 250px;
+            border: transparent;
+            position: relative;
+            left: 140px;
+            top: -48px;
+        }
+        div .c3{
+            display: inline-block;
+        }
+        .c4{
+            width: 350px;
+            height: 85px;
+            border: transparent;
+        }
+        div .c4{
+            display: inline-block;
+        }
+        .c4:hover{
+            background-color: lightgray;
+        }
+        .c5{
+            width: 350px;
+            height: 85px;
+            border: transparent;
+        }
+        div .c5{
+            display: inline-block;
+        }
+        .c5:hover{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section class="s1">
+            <button style="width: 100px; height: 30px; border: transparent; font-size: 30px; background-color: transparent; position: relative; top: 15px;">☰</button>
+            <button style="width: 200px; height: 30px; border: transparent; font-size: 30px; background-color: transparent; position: relative; top: 15px; left: 430px;">My Food</button>
+            <button style="width: 100px; height: 30px; border: transparent; font-size: 30px; background-color: transparent; position: relative; top: 15px; left: 830px;">Mail</button>
+        </section>
+    </header>
+    <section class="s2">
+        <div class="a1">
+            <div class="a2">
+                <img src="https://www.w3schools.com/w3images/sandwich.jpg" width="285px" height="400px">
+                <center><p style="font-size: 25px;">The Perfect Sandwich, A Real NYC Classic</p></center>
+                <br>
+                <center><p style="color: gray;">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+            </div>
+            <div class="a3">
+                <img src="https://www.w3schools.com/w3images/steak.jpg" width="285px" height="400px">
+                <center><p style="font-size: 25px;">Let Me Tell You About This Steak</p></center>
+                <br>
+                <center><p style="color: gray;">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+            </div>
+            <div class="a4">
+                <img src="https://www.w3schools.com/w3images/cherries.jpg" width="285px" height="400px">
+                <center><p style="font-size: 25px;">Cherries, interrupted</p></center>
+                <br>
+                <center><p style="color: gray;">Lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+                <br>
+                <center><p style="color: gray;">What else?</p></center>
+            </div>
+            <div class="a5">
+                <img src="https://www.w3schools.com/w3images/wine.jpg" width="285px" height="400px">
+                <center><p style="font-size: 25px;">Once Again, Robust Wine and Vegetable Pasta</p></center>
+                <br>
+                <center><p style="color: gray;">Lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+            </div>
+        </div>
+        <div class="b1">
+            <div class="b2">
+                <img src="https://www.w3schools.com/w3images/popsicle.jpg" width="285px" height="400px">
+                <center><p style="font-size: 25px;">All I Need Is a Popsicle</p></center>
+                <br>
+                <center><p style="color: gray;">Lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+            </div>
+            <div class="b3">
+                <img src="https://www.w3schools.com/w3images/salmon.jpg" width="285px" height="400px">
+                <center><p style="font-size: 25px;">Salmon For Your Skin</p></center>
+                <br>
+                <center><p style="color: gray;">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+            </div>
+            <div class="b4">
+                <img src="https://www.w3schools.com/w3images/sandwich.jpg" width="285px" height="400px">
+                <center><p style="font-size: 25px;">The Perfect Sandwich, A Real Classic</p></center>
+                <br>
+                <center><p style="color: gray;">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+            </div>
+            <div class="b5">
+                <img src="https://www.w3schools.com/w3images/croissant.jpg" width="285px" height="400px">
+                <center><p style="font-size: 25px;">Le French</p></center>
+                <br>
+                <center><p style="color: gray;">Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+            </div>
+        </div>
+    </section>
+    <section class="s3">
+        <center>
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a class="active" href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">&raquo;</a>
+            </div>
+        </center>
+    </section>
+    <section class="s4">
+        <center>
+            <br>
+            <br>
+            <hr style="width: 1150px;">
+        </center>
+    </section> 
+    <section class="s5">
+        <center>
+            <p style="font-size: 25px;">About Me, The Food Man</p>
+            <br>
+            <br>
+            <img src="https://www.w3schools.com/w3images/chef.jpg" width="800px" height="600px">
+            <br>
+            <br>
+            <p style="font-size: 25px;">I am Who I Am!</p>
+            <br>
+            <p><i>With Passion For Real, Good Food</i></p>
+            <br>
+            <p style="width: 1100px; position: relative; left: 10px;">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr style="width: 1150px;">
+        </center>
+    </section>
+    <section class="s6">
+        <div class="s7">
+            <div class="c1">
+                <br>
+                <p style="font-size: 30px;">FOOTER</p>
+                <br>
+                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <br>
+                <p>Powered by <u>VK</u></p>
+            </div>
+            <div class="c2">
+                <br>
+                <p style="font-size: 30px;">BLOG POSTS</p>
+                <br>
+                <div class="c4">
+                    <img style="position: absolute;top: 84px; left: 15px;" src="https://www.w3schools.com/w3images/workshop.jpg" width="60px" height="60px">
+                    <span><p style="color: black; font-size: 25px; position: relative; left: 100px; top: 15px;">Lorem</p></span>
+                    <span><p style="position: relative; left: 100px; top: 20px;">Sed mattis nunc</p></span>
+                </div>
+                <div class="c5">
+                    <img style="position: absolute;top: 170px; left: 15px;" src="https://www.w3schools.com/w3images/gondol.jpg" width="60px" height="60px">
+                    <span><p style="color: black; font-size: 25px; position: relative; left: 100px; top: 15px;">Ipsum</p></span>
+                    <span><p style="position: relative; left: 100px; top: 20px;">Praes tinci sed</p></span>
+                </div>
+            </div>
+            <div class="c3">
+                <br>
+                <p style="font-size: 30px;">POPULAR TAGS</p>
+                <br>
+                <span><button style="position: absolute; left: 10px; width: 50px; height: 20px; background-color: black; color: white;">Travel</button></span>
+                <span><button style="position: absolute; left: 70px; width: auto; height: 18px; background-color: gray; color: white;">New York</button></span>
+                <span><button style="position: absolute; left: 140px; width: auto; height: 18px; background-color: gray; color: white;">Dinner</button></span>
+                <span><button style="position: absolute; left: 192px; width: auto; height: 18px; background-color: gray; color: white;">Salmon</button></span>
+                <span><button style="position: absolute; left: 249px; width: auto; height: 18px; background-color: gray; color: white;">France</button></span>
+                <span><button style="position: absolute; left: 302px; width: auto; height: 18px; background-color: gray; color: white;">Drinks</button></span>
+                <br>
+                <br>
+                <span><button style="position: absolute; left: 10px; width: 50px; height: 18px; background-color: gray; color: white;">Ideas</button></span>
+                <span><button style="position: absolute; left: 70px; width: auto; height: 18px; background-color: gray; color: white;">Flavors</button></span>
+                <span><button style="position: absolute; left: 128px; width: auto; height: 18px; background-color: gray; color: white;">Cuisine</button></span>
+                <span><button style="position: absolute; left: 185px; width: auto; height: 18px; background-color: gray; color: white;">Chicken</button></span>
+                <span><button style="position: absolute; left: 245px; width: auto; height: 18px; background-color: gray; color: white;">Dressing</button></span>
+                <br>
+                <br>
+                <span><button style="position: absolute; left: 10px; width: auto; height: 18px; background-color: gray; color: white;">Fried</button></span>
+                <span><button style="position: absolute; left: 50px; width: auto; height: 18px; background-color: gray; color: white;">Fish</button></span>
+                <span><button style="position: absolute; left: 85px; width: auto; height: 18px; background-color: gray; color: white;">Duck</button></span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
