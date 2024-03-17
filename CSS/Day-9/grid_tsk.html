@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Task</title>
+    <style>
+        .a1{
+            display: grid;
+            grid-template-columns: 150px 150px 150px;
+            grid-template-rows: 100px 200px 100px;
+            gap: 5px;
+        }
+        .a1 div{
+            background-color: grey;
+        }
+        .a2{
+            display: grid;
+            grid-template-columns: 75px 300px 75px;
+            grid-template-rows: 100px 200px 100px;
+            gap: 5px;
+        }
+        .a2 div{
+            background-color: grey;
+        }
+        .a3{
+            display: grid;
+            grid-template-columns: 150px 150px 150px;
+            grid-template-rows: 50px 200px 50px;
+            gap: 5px;
+        }
+        .a3 div{
+            background-color: grey;
+        }
+        .a4{
+            display: grid;
+            grid-template-columns: 100px 360px;
+            grid-template-rows: 150px 150px;
+            gap: 5px;
+        }
+        .a4 div{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="a1">
+        <div style="grid-column: 1/4;">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div style="grid-column: 1/4;">5</div>
+    </div>
+    <br><br>
+    <div class="a2">
+        <div style="grid-column: 1/4;">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div style="grid-column: 1/4;">5</div>
+    </div>
+    <br><br>
+    <div class="a3">
+        <div style="grid-column: 1/4;">1</div>
+        <div style="grid-column: 1/4;">2</div>
+        <div style="grid-column: 1/4;">3</div>
+    </div>
+    <br><br>
+    <div class="a4">
+        <div style="grid-row: 1/4;">1</div>
+        <div style="grid-row: 1/4;">2</div>
+        
+    </div>
+</body>
+</html>
