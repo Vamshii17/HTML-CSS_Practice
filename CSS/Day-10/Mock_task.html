@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Task</title>
+    <style>
+        div{
+            width: 1000px;
+            height: 600px;
+            background-color: gray;
+        }
+        nav{
+            width: 800px;
+            height: 100px;
+            background-color: black;
+            margin-left: 100px;
+            animation: nav 10s forwards 1;
+        }
+        button{
+            width: 150px;
+            height: 20px;
+            position: relative;
+            top: 40px;
+            left: 90px;
+            color: black;
+            border: transparent;   
+        }
+        @keyframes nav{
+            100%{
+                transform: translateY(250px);
+            }
+        }
+        img{
+            position: fixed;
+            left: 800px;
+            top: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <button>HOME</button>
+            <button>ADDRESS</button>
+            <button>CONTACT US</button>
+            <button>HELP</button>
+        </nav>
+        <img src="../Images/P.jpg" width="130px" height="150px">
+    </div>
+</body>
+</html>
